@@ -141,7 +141,7 @@ class Food(db.Model):
             "food_category": self.food_category,
             "name": self.name,
             "keywords": self.keywords,
-            "location_id" = self.location_id
+            "location_id": self.location_id,
             "creation_time": self.creation_time,
             "expiration": self.expiration
         }
@@ -156,7 +156,7 @@ class Food(db.Model):
             "food_category": self.food_category,
             "name": self.name,
             "keywords": self.keywords,
-            "location_id" = location.simple_serialize(),
+            "location_id": location.simple_serialize(),
             "creation_time": self.creation_time,
             "expiration": self.expiration
         }

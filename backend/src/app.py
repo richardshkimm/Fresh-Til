@@ -2,8 +2,7 @@ from datetime import datetime
 import json
 
 import db
-from flask import Flask
-from flask import request
+from flask import Flask, request
 
 DB = db.DatabaseDriver()
 
